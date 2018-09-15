@@ -4,4 +4,9 @@ def FizzBuzz(x)
   a = x/5
   b = a.is_a? Integer
   if z == true && b == false
+    puts "Fizz"
+  elseif z == false && b == true
+    puts "Buzz"
+  elseif z == true && b == true
+    puts "FizzBuzz"
 end

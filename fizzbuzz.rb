@@ -2,10 +2,10 @@ def fizzbuzz(x)
   y = x % 3
   z = x % 5
   if ((y == 0) && (z == 0))
-    puts "FizzBuzz"
+    return "FizzBuzz"
   elsif (y == 0)
-  puts "Fizz"
+  return "Fizz"
   elsif (z == 0)
-  puts "Buzz"
+  return "Buzz"
   end
 end

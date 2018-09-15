@@ -1,2 +1,7 @@
-# Don't forget! This file needs to be 'required' in its spec file
-# See README.md for instructions on how to do this
+def FizzBuzz(x)
+  y = x/3
+  z = y.is_a? Integer
+  a = x/5
+  b = a.is_a? Integer
+  if z == true && b == false
+end

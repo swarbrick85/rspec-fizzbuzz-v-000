@@ -1,4 +1,4 @@
-def FizzBuzz(x)
+def fizzbuzz(x)
   y = x/3
   z = y.is_a? Integer
   a = x/5

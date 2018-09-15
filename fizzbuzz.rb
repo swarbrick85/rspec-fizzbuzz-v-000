@@ -9,4 +9,5 @@ def FizzBuzz(x)
     puts "Buzz"
   elseif z == true && b == true
     puts "FizzBuzz"
+  end
 end

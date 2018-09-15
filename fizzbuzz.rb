@@ -5,9 +5,9 @@ def fizzbuzz(x)
   b = a.is_a? Integer
   if z == true && b == false
     puts "Fizz"
-  elseif z == false && b == true
+  elsif z == false && b == true
     puts "Buzz"
-  elseif z == true && b == true
+  elsif z == true && b == true
     puts "FizzBuzz"
   end
 end

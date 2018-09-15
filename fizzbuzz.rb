@@ -1,8 +1,5 @@
 def fizzbuzz(x)
-  y = x/3
-  z = y.is_a? Integer
-  a = x/5
-  b = a.is_a? Integer
+  y = 
   if z == true && b == false
     puts "Fizz"
   elsif z == false && b == true

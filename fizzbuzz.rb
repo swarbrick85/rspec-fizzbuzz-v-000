@@ -7,7 +7,5 @@ def fizzbuzz(x)
     puts "Buzz"
   elsif ((y == 0) && (z == 0))
     puts "FizzBuzz"
-  else
-    puts "nil"
   end
 end
